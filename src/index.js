@@ -34,4 +34,14 @@ class Metronome extends Component {
       this.setState({ bpm });
     }
   };
+
+  startStop = () => {
+    if (this.state.playing) {
+      clearInterval(this.timer);
+      this.setState({ playing: false });
+    } else {
+      
+    }
+  };
+
 }
