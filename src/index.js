@@ -50,5 +50,7 @@ class Metronome extends Component {
       }, this.playClick);
     }
   };
-
+  playClick = () => {
+    const { count, beatsPerMeasure } = this.state;
+  };
 }
