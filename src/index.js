@@ -62,4 +62,6 @@ class Metronome extends Component {
       count: (state.count + 1) % beatsPerMeasure
     }));
   };
+  render() {
+  }
 }
