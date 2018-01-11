@@ -63,5 +63,9 @@ class Metronome extends Component {
     }));
   };
   render() {
+    let { bpm, playing } = this.state;
+
+    return (
+    );
   }
 }
