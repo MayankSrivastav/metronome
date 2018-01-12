@@ -66,6 +66,11 @@ class Metronome extends Component {
     let { bpm, playing } = this.state;
 
     return (
+      <section className="metronome">
+        <section className="bpm-slider">
+          <p>{bpm} BPM</p>
+        </section>
+      </section>
     );
   }
 }
