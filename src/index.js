@@ -69,8 +69,10 @@ class Metronome extends Component {
       <section className="metronome">
         <section className="bpm-slider">
           <p>{bpm} BPM</p>
-        </section>
-      </section>
-    );
-  }
-}
+          <Slider            
+            min={60}
+            max={240}
+            value={bpm}
+            step={1}
+            onChange={this.handleBPMChange}
+          />
