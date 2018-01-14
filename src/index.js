@@ -76,3 +76,7 @@ class Metronome extends Component {
             step={1}
             onChange={this.handleBPMChange}
           />
+          <RaisedButton primary onClick={this.startStop}>
+            {playing ? 'Stop' : 'Start'}
+          </RaisedButton> 
+      </section>
