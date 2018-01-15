@@ -79,4 +79,7 @@ class Metronome extends Component {
           <RaisedButton primary onClick={this.startStop}>
             {playing ? 'Stop' : 'Start'}
           </RaisedButton> 
+        </section>
       </section>
+      );
+  }
