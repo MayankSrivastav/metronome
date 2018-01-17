@@ -82,6 +82,6 @@ class Metronome extends Component {
         </section>
       </section>
       );
-  }
+    }
 }
 export default Metronome;
