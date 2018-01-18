@@ -20,7 +20,6 @@ class Metronome extends Component {
   }
   
   handleBPMChange = (event, newValue) => {
-    // const bpm = event.target.value;
     const bpm = newValue;
     if (this.state.playing) {
       clearInterval(this.timer);
